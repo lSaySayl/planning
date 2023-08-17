@@ -1,0 +1,14 @@
+@import "assets/sass/abstracts/variables";
+@import "assets/sass/base/reset";
+@import "assets/sass/abstracts/mixins";
+
+
+
+body {
+  @include flex;
+  height: 100vh;
+  background-image: radial-gradient(circle, #260852, #260951, #250951, #250a50, #250a4f, #240b4d, #240c4a, #230d48, #220e43, #210f3e, #1f103a, #1e1135);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family:$font; }
